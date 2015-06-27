@@ -24,7 +24,7 @@ public class PruebaContenedor {
         ContenedorDeEnteros c = new ContenedorDeEnteros();
 
         //Creamos el árbol con  un tamaño de datos de tipo float (8 bytes)
-        c.crear("AB1", 4, 10);
+        c.crear("AB1", 4, 20);
 
         try {
             fichesc = new FileWriter("ArbolB.txt");
